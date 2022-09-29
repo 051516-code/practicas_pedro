@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border : 2px solid crimson; */
+}
+
+header {
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(190, 198, 204, 0.877);
+    margin-left: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-image: url("./img/food.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+
+ /* logo  */
+ #box_logo {
+    /* background-color: blue; */
+    width: 300px;
+    height: auto;
+    
+}
+#box_logo img {
+    width: 100px;
+    height: 90px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    margin-left: 100px;
+ 
+}
+ /*  fin de logo  */
+
+ /* navegaçao  */
+ nav {
+    border : 2px solid crimson;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ a {
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+
+    
+ }
+ a:hover {
+    color: rgb(216, 21, 21);
+ }
